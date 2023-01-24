@@ -1,0 +1,59 @@
+/* using relative postion attribute in css to modify positioning */
+
+/* .top_container {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 400px;
+}
+
+.mid_container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    bottom: 200px;
+}
+
+.bottom_container {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+} */
+
+/* using absolute positioning */
+
+body {
+    margin: 0px;
+}
+.top_container {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+
+}
+
+.mid_container {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.bottom_container {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+}
+
+/* using fixed value for position attribute, that particular blox remains fixed when scrolling */

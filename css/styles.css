@@ -1,0 +1,202 @@
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+
+/* .header {
+    color: #222831;
+    margin: 0px;
+    padding: 5px;
+} */
+/* 
+.top_container {
+    margin: 0px;
+    border: 10px solid;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.mid_container {
+    margin: 0px 260px 0px 260px;
+    border: 20px solid;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom_container {
+    margin: 0px 0px 0px 500px;
+    border: 10px solid;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+} */
+
+/* ---------------------------------------------------------------- */
+.about_text {
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+
+.bird_pic {
+    width: 250px;
+}
+
+.bottom-container {
+    margin-top: 30px;
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+ }
+
+.copyright {
+    color: white;
+    font-size: 100%;
+}
+
+.dotted_hr {
+    width: 5%;
+    border-style: none;
+    border-width: 7px;
+    border-color: grey;
+    border-top-style: dotted;
+    margin: 50px auto 50px auto;
+}
+
+.footer-link {
+    margin: 0 15px 0 15px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.heading_skill {
+    margin-bottom: 0;
+    font-size: 175%;
+}
+
+.icon_programming {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.icon_react {
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.text_skill {
+    margin-top: 0;
+}
+
+.top_container {
+    /* background-color: rgb(147, 247, 247); */
+    padding: 20px 0 0 0;
+    position: relative;
+    height: 700px;
+
+}
+
+.top_text {
+    font-family:'Satisfy', cursive;
+    position: relative;
+    top: 20px;
+}
+
+.cloud_1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 500px;
+}
+
+.cloud_2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 500px;
+}
+
+.cursive {
+    font-family:'Satisfy', cursive;
+}
+
+.mountain {
+position: absolute;
+bottom: 0;
+right: 450px;
+}
+
+
+.skill-row {
+    /* to auto center skill-row and set 50% width */
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill-row-webDev {
+    margin-bottom: 0;
+}
+
+a {
+    color: #11999E;
+}
+
+h1 {
+    /* 100% eqauls 16px equals 1em, value in % better to make site dynamic */
+    /* using rem (root em) is best for sizing as it doesn't add on with prevoius values unlike em */
+    font-size: 500%;
+    color: #66BFBF;
+    /* line-height defines the line-spacing  */
+    line-height: 2;
+    margin: 70px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    /* The font-weight CSS property sets the weight (or boldness) of the font */
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    font-size: 150%;
+    font-weight: 500;
+}
