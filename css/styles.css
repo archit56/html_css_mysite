@@ -44,6 +44,7 @@ body {
 
 .bird_pic {
     width: 250px;
+    margin: 30px 0;
 }
 
 .bottom-container {
@@ -114,6 +115,10 @@ body {
     width: 25%;
     float: right;
     margin-left: 20px;
+}
+
+.lower_contact{
+    margin-bottom: 40px;
 }
 
 .text_skill {
